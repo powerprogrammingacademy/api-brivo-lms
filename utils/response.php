@@ -67,7 +67,7 @@ class RespuestasError extends Respuestas
 {
     public function notFound()
     {
-        parent::jsonResponse('Ruta no encontrada', [], 404);
+        parent::jsonResponse('No encontrado', [], 404);
     }
 
     public function unauthorized()
